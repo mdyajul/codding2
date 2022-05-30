@@ -100,10 +100,41 @@
 
       /* Medium Screen */
       @media only screen and (min-width: 500px) and (max-width: 768px) {
+        #box{
+        /* margin-top: 30px; */
+         
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,auto);
+        
+        /* gap: 20px 15px; */
+      }
       }
 
       /* Small Screen */
       @media only screen and (min-width: 320px) and (max-width: 499px) {
+        #box{
+        /* margin-top: 30px; */
+         
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,auto);
+        
+        /* gap: 20px 15px; */
+      }
+      #services>div{
+        width: 18%;
+        
+        background-color: rgb(105, 105, 236);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      #services{
+        width: 100%;
+        /* height: 400px; */
+        
+        /* display: flex; */
+        /* margin-top: 30px; */
+        /* margin: auto; */
+        /* justify-content: space-between; */
+      }
       }
     </style>
   </head>
